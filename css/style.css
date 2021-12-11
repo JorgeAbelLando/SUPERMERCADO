@@ -1,0 +1,59 @@
+@import url(./style2.css);
+:root{
+--primary: #FA383E;
+--secondary: #ECF3FF;
+--tertiary: #1877F2;
+--quaternary:
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+p{
+    width: 80vw;  
+}
+div img{
+    width: 50vw;
+    height: 50vh;
+}
+ li{
+    display: inline-block;
+    padding: 10px 50px;
+  
+}
+li a{
+    color:var(--secondary);
+    text-decoration: none; 
+}
+li:hover{
+    background-color: #ECF3FF50;
+    border-radius: 10%;
+}
+li :hover > a{
+    color: var(--primary);
+    
+}
+#logo:hover{
+    border: 2px solid red;
+}
+#logo{
+    border-radius: 50%;
+}
+div{
+    width: 100vw}
+ul {
+    background-color:var(--primary);
+}
+h1 {
+    color:var(--primary);   
+}
+footer{
+    display: inline-block;
+    padding: 10px 30px;
+    width: 100vw;    
+}
+
